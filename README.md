@@ -20,7 +20,7 @@ Resources:
 
 * Day 3: Recap the grid of web design and html forms. Then have students add a new two-column responsive section to their pages containing some placeholder text on one column and a contact form on the other. Finally explain forms posting (the built-in html mechanism involving input and button with type submit). Tie form posting with the request-response model and explain how the details of the request are specified by the form action and method, and the data being submitted is specified by the *name* of each form input. The form should post to fvi-grad.com:4004/email so they can have a working email form on their site.
 
-* Day 4: So far we have covered only the three most essential css selectors. On this day we talk about more selectors, namely numbers 1-13, 18, 19, and 20 from [this list](http://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048) Then we proceed to Test 1. It will involve adding a 3-column responsive section to a website that's given to them.
+* Day 4: So far we have covered only the three most essential css selectors. On this day we talk about more selectors, namely numbers 1-13, 18, 19, and 20 from [this list](http://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048) Then we proceed to Test 1. It will involve adding a 3-column responsive section to a website that's given to them. [This template](https://startbootstrap.com/template-overviews/modern-business/) could be an example
 
 
 * Day 5: JS road trip 1 and as many exercises as possible
