@@ -1,4 +1,6 @@
-// In the JavaScript console, Use one line of code to declare a variable
+// Video 2.4 accompanies this exercise
+
+// In the console, Use one line of code to declare a variable
 // called index14 and assign to it the character at index 14 in the string
 // below. Then enter index14.
 //

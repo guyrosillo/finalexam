@@ -1,5 +1,7 @@
-// On one line of code, declare the variable twenty20 and assign
-// to it 3 + 10 + 7. Then enter twenty20 on the next line.
+// Video 2.4 accompanies this exercise
+
+// In the console, declare the variable twenty20 and assign
+// to it 3 + 10 + 7. Then enter twenty20.
 
 
 
