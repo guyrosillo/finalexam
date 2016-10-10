@@ -19,8 +19,7 @@ body {
 .box {
   width: 100px;
   height: 100px;
-  margin-left: 10px;
-  margin-top: 10px;
+  margin: 5px;
   float: left;
   transition: all .1s;
 }
@@ -33,7 +32,7 @@ body {
   float: left;
   color: white;
   padding: 5px;
-  margin: 10px 10px 0 0;
+  margin: 5px;
   border: 2px solid white;
 }
 

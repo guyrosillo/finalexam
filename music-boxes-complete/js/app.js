@@ -1,67 +1,94 @@
-$(document).ready(function () {
-  var cNote = document.getElementById('cAudio');
-  var dNote = document.getElementById('dAudio');
-  var eNote = document.getElementById('eAudio');
-  var fNote = document.getElementById('fAudio');
-  var gNote = document.getElementById('gAudio');
-  var aNote = document.getElementById('aAudio');
-  var bNote = document.getElementById('bAudio');
+$(document).ready(function() {
+    var cNote = document.getElementById('cAudio');
+    var dNote = document.getElementById('dAudio');
+    var eNote = document.getElementById('eAudio');
+    var fNote = document.getElementById('fAudio');
+    var gNote = document.getElementById('gAudio');
+    var aNote = document.getElementById('aAudio');
+    var bNote = document.getElementById('bAudio');
 
-  $('#c').mousedown(function(){
-      cNote.currentTime = 0;
-      cNote.play();
-  });
+    var notes = {
+        c: cNote,
+        d: dNote,
+        e: eNote,
+        f: fNote,
+        g: gNote,
+        a: aNote,
+        b: bNote
+    };
 
-  $('#d').mousedown(function(){
-      dNote.currentTime = 0;
-      dNote.play();
-  });
 
-  $('#e').mousedown(function(){
-      eNote.currentTime = 0;
-      eNote.play();
-  });
+    function playNote(letter) {
+        notes[letter].currentTime = 0;
+        notes[letter].play();
+    };
 
-  $('#f').mousedown(function(){
-      fNote.currentTime = 0;
-      fNote.play();
-  });
+    $('.box').click(function() {
+      playNote( $(this).attr('id') );
+    });
 
-  $('#g').mousedown(function(){
-      gNote.currentTime = 0;
-      gNote.play();
-  });
+    // $('#c').mousedown(function() {
+    //     cNote.currentTime = 0;
+    //     cNote.play();
+    // });
+    //
+    // $('#d').mousedown(function() {
+    //     dNote.currentTime = 0;
+    //     dNote.play();
+    // });
+    //
+    // $('#e').mousedown(function() {
+    //     eNote.currentTime = 0;
+    //     eNote.play();
+    // });
+    //
+    // $('#f').mousedown(function() {
+    //     fNote.currentTime = 0;
+    //     fNote.play();
+    // });
+    //
+    // $('#g').mousedown(function() {
+    //     gNote.currentTime = 0;
+    //     gNote.play();
+    // });
+    //
+    // $('#a').mousedown(function() {
+    //     aNote.currentTime = 0;
+    //     aNote.play();
+    // });
+    //
+    // $('#b').mousedown(function() {
+    //     bNote.currentTime = 0;
+    //     bNote.play();
+    // });
 
-  $('#a').mousedown(function(){
-      aNote.currentTime = 0;
-      aNote.play();
-  });
+    $("#c_major_chord").mousedown(function() {
+        playNote('c');
+        playNote('e');
+        playNote('g');
+    });
 
-  $('#b').mousedown(function(){
-      bNote.currentTime = 0;
-      bNote.play();
-  });
+    $("#f_major_chord").mousedown(function() {
+        playNote('f');
+        playNote('a');
+        playNote('c');
+    });
 
-  $("#c_major_chord").mousedown(function() {
-    cNote.currentTime = 0;
-    cNote.play();
+    $("#g_major_chord").mousedown(function() {
+        playNote('g');
+        playNote('b');
+        playNote('d');
+    });
 
-    eNote.currentTime = 0;
-    eNote.play();
-
-    gNote.currentTime = 0;
-    gNote.play();
-  });
-
-  $("#g_major_chord").mousedown(function() {
-    gNote.currentTime = 0;
-    gNote.play();
-
-    bNote.currentTime = 0;
-    bNote.play();
-
-    dNote.currentTime = 0;
-    dNote.play();
-  });
+    // $("#f_major_chord").mousedown(function() {
+    //     fNote.currentTime = 0;
+    //     fNote.play();
+    //
+    //     aNote.currentTime = 0;
+    //     aNote.play();
+    //
+    //     cNote.currentTime = 0;
+    //     cNote.play();
+    // });
 
 });
