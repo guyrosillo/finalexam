@@ -23,7 +23,7 @@ $(document).ready(function() {
         notes[letter].play();
     };
 
-    $('.box').click(function() {
+    $('.box').mousedown(function() {
       playNote( $(this).attr('id') );
     });
 
@@ -90,5 +90,34 @@ $(document).ready(function() {
     //     cNote.currentTime = 0;
     //     cNote.play();
     // });
+
+    $(document).keydown(function(key) {
+      // console.log(e.which);
+      if(key.which === 65 || 83 || 68 || 70 || 71 || 72 || 74) {
+        switch (key.which) {
+          case 65:
+            $('#c').mousedown();
+            break;
+          case 83:
+            $('#d').mousedown();
+            break;
+          case 68:
+            $('#e').mousedown();
+            break;
+          case 70:
+            $('#f').mousedown();
+            break;
+          case 71:
+            $('#g').mousedown();
+            break;
+          case 72:
+            $('#a').mousedown();
+            break;
+          case 74:
+            $('#b').mousedown();
+            break;
+        }
+      }
+    });
 
 });
