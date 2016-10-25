@@ -1,7 +1,7 @@
 # WEB1010
 
 #Homework
-1. Do 40% of the codecademy javascript track. Video explanations are available on the youtube channel named thecodingteacher.
+1. Do 40% of the codecademy javascript track. Video explanations are available on the youtube channel named [thecodingteacher](https://www.youtube.com/playlist?list=PLkOcUOQbE6gaJpEanJNBQaATre7Ea3shN).
 2. Complete the exercises from http://fvi-grad.com
 
 #Grading
