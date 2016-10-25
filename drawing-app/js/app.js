@@ -1,15 +1,15 @@
-//When clicking on the color picking list items
-  //deselect all li's that are selected
-  //select the one which was clicked
+//When clicking on a color
+  //Remove white ring from other colors
+  //Make selected color have the white ring
+  //Set selected color to current color
 
-//When "new color" is pressed
-  //hide or unhide the color select div
+//When "New Color" button is pressed
+  //hide/unhide the color select div
 
 //When color sliders changes
-//OR when the previous event fires
-  //update the new color span
+  //update the new color box
 
-//When add color is pressed
+//When "Add Color" button is pressed
   //append the new color to the controls ul
   //select the new color
 
