@@ -1,0 +1,13 @@
+form input {
+    display: block;
+    margin: 0 0 5px 0;
+    width: 268px;
+}
+
+form input[name="message"] {
+    height: 80px;
+}
+
+form input[name="submit"] {
+    width: auto;
+}
