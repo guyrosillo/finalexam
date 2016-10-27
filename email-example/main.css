@@ -1,7 +1,16 @@
+form {
+    margin:auto;
+}
+
 form input {
     display: block;
     margin: 0 0 5px 0;
     width: 268px;
+    border: 1px solid #000;
+}
+
+form textarea {
+    border: 1px solid #000;
 }
 
 form input[name="message"] {
