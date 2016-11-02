@@ -2,7 +2,8 @@
 
 // In the console, using your firstName and lastName variables,
 // make a variable called fullName that unites your first and last names
-// into one String. Then enter fullName.
+// into one String. Make sure there is a space between them. Then log fullName
+// to the console.
 
 
 

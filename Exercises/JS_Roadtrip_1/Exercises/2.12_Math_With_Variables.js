@@ -8,7 +8,7 @@
 //
 // In the console, use numPassengers to find the number of passengers
 // on the bus, and use (trainCapacity - numPassengers) to find the number
-// of seats remaining. Return occupancy.
+// of seats remaining. Then log occupancy to the console.
 
 
 

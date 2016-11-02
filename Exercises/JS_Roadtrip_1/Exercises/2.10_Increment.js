@@ -4,8 +4,8 @@
 // 3 passengers get on the bus.
 //
 // In the console, declare a variable called numPassengers and set its
-// value to 0. Then, increment the variable by 3, but without using the
-// variable's name twice in the new statement. Then enter numPassengers.
+// value to 0. Then, increment the variable by 3, using the += operator.
+// Then log numPassengers to the console.
 
 
 

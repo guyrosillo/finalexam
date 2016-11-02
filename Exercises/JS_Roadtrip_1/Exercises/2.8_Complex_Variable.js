@@ -1,8 +1,8 @@
 // Video 2.4 accompanies this exercise
 
 // In the console, Use one line of code to declare a variable
-// called index14 and assign to it the character at index 14 in the string
-// below. Then enter index14.
+// called index14. Assign to index14 the 15th character, which is the 14th index.
+// Then log index14 to the console.
 //
 //    "What can we do? Keep going!"
 //
