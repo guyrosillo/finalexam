@@ -9,7 +9,6 @@ $("#imageGallery a").click(function(event){
   //1.2 Update overlay with the image linked in the link
   //1.3 Get child's alt attribute and set caption
 
-
 });
 //2. Add overlay
   //2.1 An image
