@@ -12,7 +12,6 @@
 
     <!-- Bootstrap core CSS -->
     <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../../dist/css/extra.css" rel="stylesheet">
     <link href="../../dist/css/form.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
@@ -162,7 +161,7 @@
 
       <!-- /END THE FEATURETTES -->
       <div class="contact-form">
-          <form class="email-form" action="http://fvi-grad.com:4004/email" method="post">
+          <form id="contact-form" class="email-form" action="http://fvi-grad.com:4004/email" method="post">
             <input type="email" name="dest_email" value="bcozby@fvi.edu" style="display: none;">
             <input type="text" name="full_name" value="" placeholder="Full Name">
             <input type="tel" name="phone" value="" placeholder="Phone Number">
@@ -171,7 +170,7 @@
             <input type="text" name="email" value="" placeholder="Your Email Address">
             <input type="text" name="subject" value="" placeholder="Subject">
             <textarea name="message" rows="8" cols="50"></textarea>
-            <input type="submit" name="submit" value="Send">
+            <button id="form-submit" type="submit">Send</button>
           </form>
       </div>
 
@@ -193,5 +192,6 @@
     <script src="../../dist/js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="../../assets/js/vendor/holder.min.js"></script>
+    <!-- <script src="../../dist/js/main.js"></script> -->
   </body>
 </html>
