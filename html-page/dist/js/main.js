@@ -11,6 +11,9 @@
         .done(function() {
             $formElement[0].reset();
             $formElement.children('textarea').attr('placeholder', 'Your message has been sent!');
+        })
+        .fail(function(error) {
+            console.log(error);
         });
     }
 
