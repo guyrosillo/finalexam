@@ -1,27 +1,30 @@
 (function() {
 
-    var $formElement = $('#contact-form');
+    $(document).ready(function() {
+        var $formElement = $('#contact-form');
+        $('#form-submit').click(function(event) {
+            event.preventDefault();
+            sendForm($formElement);
+        });
+    });
 
-    function sendForm() {
+    function sendForm($form) {
         $.ajax({
             method: "post",
-            url: $formElement.attr('action'),
-            data: $formElement.serialize()
+            url: $form.attr('action'),
+            data: $form.serialize()
         })
         .done(function() {
-            $formElement[0].reset();
-            $formElement.children('textarea').attr('placeholder', 'Your message has been sent!');
+            $form[0].reset();
+            $form.children('textarea').attr('placeholder', 'Your message has been sent!');
         })
         .fail(function(error) {
             console.log(error);
+            alert('placeholder', 'There was an error sending your message.');
+        })
+        .always(function() {
+            // code that will always run whether or not the $.ajax method succeeds or fails
         });
     }
-
-    $(document).ready(function() {
-        $('#form-submit').click(function(event) {
-            event.preventDefault();
-            sendForm();
-        });
-    });
 
 })();
