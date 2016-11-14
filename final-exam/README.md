@@ -2,9 +2,13 @@
 
 ###Setup
 
-1. Download the .zip file called final-exam folder. Then create a github repository called web1010final.
+1. Update your WEB1010 folder by issuing the 'git pull' command.
 
-2. Next, initialize a git repository in your final-exam folder and add your web1010final github repository as a remote. (5pts)
+2. Copy the final-exam directory from your WEB1010 directory and paste a copy somewhere not inside of your WEB1010 folder.
+
+3. Create a github repository called web1010final.
+
+4. Initialize a git repository in your final-exam folder and add your web1010final github repository as a remote. (5pts)
 
 ###Part 1 - web1010final.html
 
