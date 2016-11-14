@@ -12,7 +12,7 @@
 
 ###Part 1 - web1010final.html
 
-> **Note:** The web1010final.js file is completely separate from the web1010final.html file. They are not related and have nothing to do with each other. Do not link the web1010final.js file into the web1010final.html file because it will cause bugs. Instead, create a separate JS file for the web1010final.html webpage.
+> **Note:** The web1010final.js file is completely separate from the web1010final.html file. They are not related and have nothing to do with each other. **_Do not_** link the web1010final.js file into the web1010final.html file because it will cause bugs. Instead, create a separate JS file for the web1010final.html webpage.
 
 1. In the web1010final.html file, there is a form on the page which has a bug. It appears overlapping the "Learn More" button. Make sure this form is hidden when the page loads, either using css or javascript to hide it. (5pts)
 
