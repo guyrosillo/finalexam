@@ -2,11 +2,11 @@
 
 ###Setup
 
-Download the .zip file called final-exam folder. Then create a github repository called web1010final.
+1. Download the .zip file called final-exam folder. Then create a github repository called web1010final.
 
-Next, initialize a git repository in your final-exam folder and add your web1010final github repository as a remote.
+2. Next, initialize a git repository in your final-exam folder and add your web1010final github repository as a remote.
 
-###Part 1 - -web1010final.html
+###Part 1 - web1010final.html
 
 1. In the web1010final.html file, there is a form on the page which has a bug. It appears overlapping the "Learn More" button. Make sure this form is hidden when the page loads, either using css or javascript to hide it. (10pts)
 
