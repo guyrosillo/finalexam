@@ -26,6 +26,6 @@
 
 ###Part 2 - web1010final.js
 
-1. Answer the questions in web1010final.js by typing your answers below the questions. Please put "Answer: " before each answer. (5pts per question)
+1. Answer the questions in web1010final.js by typing your answers below the questions. Please put "Answer: " before each answer. (5pts per question, 15 questions)
 
 2. When finished with both Part 1 and Part 2 of the exam, push your work to your web1010final remote on github, then submit the "Final Exam" assignment on Canvas.
