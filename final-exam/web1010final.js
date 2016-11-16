@@ -27,7 +27,7 @@ if y === 27
   console.log(27);
 
 //Question 2.1
-//What does will the console output when the following is entered.
+//What will the console output when the following is entered.
  '1'+1
 
 //a. 2
@@ -39,7 +39,7 @@ if y === 27
 //Find the errors in the following
 var name = "Roberto"
 var time =3
-//name"+ said "He's comming late.", the meetin is still at " + time +
+//name"+ said "He's comming late.", The meeting is still at " + time +
 
 //Question 2.3
 //What is the value of x?
