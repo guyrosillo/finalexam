@@ -4,12 +4,6 @@
 1. Do 40% of the codecademy javascript track. Video explanations are available on the youtube channel named [thecodingteacher](https://www.youtube.com/playlist?list=PLkOcUOQbE6gaJpEanJNBQaATre7Ea3shN).
 2. Complete the exercises from http://fvi-grad.com
 
-#Grading
-* 10% Attendance
-* 20% Homework
-* 25% completion of in class activities
-* 45% tests (15% each)
-
 #Summary
 * Day 1: First, get students setup with all their accounts, such as portal.office.com and canvas.instructure.com. Then, our goals are to get students familiar with the request-response model, most common html elements and attributes, and the conceptual basis of the relationship between html, css, js. Students will learn the definition of html elemnts and attributes by working with a template. On this day, students also install git and get the crash course of the main commands needed to work on their own.
 Resources:
