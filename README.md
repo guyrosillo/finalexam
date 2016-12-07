@@ -11,7 +11,7 @@
 * 45% tests (15% each)
 
 #Summary
-* Day 1: Goals are to get students familiar with the request-response model, most common html elements and attributes, and the conceptual basis of the relationship between html, css, js. Students will learn the definition of html elemnts and attributes by working with a template. On this day, students also install git and get the crash course of the main commands needed to work on their own.
+* Day 1: First, get students setup with all their accounts, such as portal.office.com and canvas.instructure.com. Then, our goals are to get students familiar with the request-response model, most common html elements and attributes, and the conceptual basis of the relationship between html, css, js. Students will learn the definition of html elemnts and attributes by working with a template. On this day, students also install git and get the crash course of the main commands needed to work on their own.
 Resources:
   * [Powerpoint Presentation](https://docs.google.com/presentation/d/10vDVvKG7lW_quJ2O5c1nmHttuXlDnOIjeES1xMiaxTI/edit#slide=id.g35f391192_00)
   * [Template](http://v4-alpha.getbootstrap.com/examples/carousel/)
