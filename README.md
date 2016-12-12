@@ -1,7 +1,7 @@
 # WEB1010
 
 #Homework
-1. Do 100% of the codecademy javascript track. Video explanations are available on the youtube channel named [thecodingteacher](https://www.youtube.com/playlist?list=PLkOcUOQbE6gaJpEanJNBQaATre7Ea3shN).
+1. Do the first 40% of the codecademy javascript track. Video explanations are available on the youtube channel named [thecodingteacher](https://www.youtube.com/playlist?list=PLkOcUOQbE6gaJpEanJNBQaATre7Ea3shN).
 2. Extra Credit: Complete the exercises from http://fvi-grad.com. Make sure you create one GitHub repo for all the exercises, with one folder per exercise.
 
 #Summary
