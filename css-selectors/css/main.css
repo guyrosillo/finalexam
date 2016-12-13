@@ -102,3 +102,14 @@ form input[type="radio"] {
 footer {
     text-align: center;
 }
+
+@media all and (min-width: 1024px) {
+    #above-the-fold {
+        text-align: center;
+    }
+
+    .card {
+        display: inline-block;
+        max-width: 200px;
+    }
+}
