@@ -10,6 +10,6 @@ If you forget the property name, ask Google
 4. Change the display property on all the list items in the "colleges" list so that
 that are all on the same line
 
-5. Set the max-width for every image inside of a figure to 300px
+5. Set the max-width to 300px for all images that are inside of a figure
 
 6. Set the margin on all four sides of every figure to 20px;
