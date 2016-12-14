@@ -7,7 +7,7 @@
 3. Remove the bullets from the "topics" list items (but not the "colleges" list items).
 If you forget the property name, ask Google
 
-4. Change the display property on all the list items in the "colleges" list so that
+4. Change the display property for each list items in the "colleges" list so that
 that are all on the same line
 
 5. Set the max-width to 300px for all images that are inside of a figure
