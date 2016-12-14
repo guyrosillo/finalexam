@@ -4,8 +4,8 @@
 
 2. Change the background color of the "colleges" list
 
-3. Remove the bullets from the "topics" list items (but not the "colleges" list items)
-by using the text-decoration property
+3. Remove the bullets from the "topics" list items (but not the "colleges" list items).
+If you forget the property name, ask Google
 
 4. Change the display property on all the list items in the "colleges" list so that
 that are all on the same line
