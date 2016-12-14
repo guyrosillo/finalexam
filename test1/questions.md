@@ -12,3 +12,10 @@ If you forget the property name, ask Google
 5. Set the max-width to 300px for all images, but only the ones inside of a figure element
 
 6. Set the margin on all four sides of every figure element to 20px;
+
+
+WHEN DONE:
+make sure you are in the web1010-test-1 folder in git bash / terminal
+git add -A
+git commit -m "completed the test"
+git push
