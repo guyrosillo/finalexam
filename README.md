@@ -26,6 +26,6 @@
 
 * Day 10: Simple drawing app with jquery. Freecodecamp weather app. For the FCC weather app, offer treehouse-like-guidance and let students attempt on their own.
 
-* Day 11: Final exam preparation (guided), and jquery memory game.
+* Day 11: Final exam preparation (guided).
 
 * Day 12: final exam
