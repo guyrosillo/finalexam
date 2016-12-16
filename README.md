@@ -12,7 +12,7 @@
 
 * Day 3: Recap the grid of web design and html forms. Then have students add a new two-column responsive section to their pages containing some placeholder text on one column and a contact form on the other. Finally explain forms posting (the built-in html mechanism involving input and button with type submit). Tie form posting with the request-response model and explain how the details of the request are specified by the form action and method, and the data being submitted is specified by the *name* of each form input. The form should post to [http://fvi-grad.com:4004/email](http://fvi-grad.com:4004/email) so they can have a working email form on their site.
 
-* Day 4: Get students setup with the fvi-grad digital ocean accounts and push their html-page live. Then, guide the students in completing the [css-practice](./classwork/css-practice) exercises. 
+* Day 4: Get students setup with the fvi-grad digital ocean accounts and push their html-page live. Then, guide the students in completing the [css-practice](./classwork/css-practice) exercises. For the rest of the course, students should publish every project to their digital ocean and submit both the GitHub repo URL and the live URL (served by digital ocean) on canvas.instructure.com.
 
 * Day 5: Start with [Test 1](./test1). Then guide the students through completing the JS road trip 1 exercises.
 
