@@ -23,7 +23,7 @@ Resources:
 
 * Day 7: Javascript Objects, object access syntax, creating objects, traversing object properties. Students will also complete, with instructor's guidance, the Night and Day Project, and Music Boxes Project.
 
-* Day 8: [Test 2](./test2.md).
+* Day 8: [Test 2](./test2).
 
 * Day 9: We introduce AJAX programming and instructor leads students in doing the quote of the day assignment. We then move on to the treehouse lightbox video. After the break, we do the mobile drop down menu, and switch our form from day 3 to post with ajax.
 
