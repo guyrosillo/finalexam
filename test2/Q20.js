@@ -1,5 +1,5 @@
-// Create a new function called efficient below the current function that returns
-// the same values as the mystery function. However, the efficient function
+// Create a new function called "efficient" below the "msytery" function that returns
+// the same value as the mystery function. However, the efficient function
 // should have only one line of code inside its body instead of 4 lines of code,
 // like the mystery function has.
 
