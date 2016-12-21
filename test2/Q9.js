@@ -1,4 +1,5 @@
-// Create a countMessage variable and assign to it the string below, but
+// Create your numPassengers variable again and set it to 2.
+// Then create a countMessage variable and assign to it the string below, but
 // replace the 3 in the string below with the numPassengers variable using
 // concatenation with the + operator.
 //
