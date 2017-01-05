@@ -2,17 +2,13 @@
 
 ###Setup
 
-1. Update your WEB1010 folder by issuing the 'git pull' command.
+1. Create a github repository called web1010final and clone that repo onto your computer.
 
-2. Copy the final-exam directory from your WEB1010 directory and paste a copy somewhere not inside of your WEB1010 folder.
+2. Update your WEB1010 folder by issuing the 'git pull' command.
 
-3. Create a github repository called web1010final.
-
-4. Initialize a git repository in your final-exam folder and add your web1010final github repository as a remote.
+3. Copy all the files inside the final-exam directory in the WEB1010 directory and paste them inside the web1010final directory you just cloned from github.
 
 ###Part 1 - web1010final.html
-
-> **Note:** The web1010final.js file is completely separate from the web1010final.html file. They are not related and have nothing to do with each other. **_Do not_** link the web1010final.js file into the web1010final.html file because it will cause bugs. Instead, create a separate JS file for the web1010final.html webpage.
 
 1. In the web1010final.html file, there is a form on the page which has a bug. It appears overlapping the "Learn More" button. Make sure this form is hidden when the page loads, either using css or javascript to hide it. (15pts)
 
