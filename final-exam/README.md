@@ -8,7 +8,7 @@
 
 3. Copy all the files inside the final-exam directory in the WEB1010 directory and paste them inside the web1010final directory you just cloned from github.
 
-###Part 1 - web1010final.html
+###Part 1 - index.html
 
 1. In the web1010final.html file, there is a form on the page which has a bug. It appears overlapping the "Learn More" button. Make sure this form is hidden when the page loads, either using css or javascript to hide it. (15pts)
 
@@ -20,7 +20,7 @@
 
 5. Make sure the form is posted with ajax and that the user gets some kind of visual feedback when the form submission button is clicked. for instance, the caption of the button can change to "sending..." upon click and then change to "Message Sent!" when the ajax response comes back. (15pts)
 
-###Part 2 - web1010final.js
+###Part 2 - js-exercises.js
 
 1. Answer the questions in web1010final.js by typing your answers below the questions. Please put "Answer: " before each answer. (5pts per question, 15 questions)
 
