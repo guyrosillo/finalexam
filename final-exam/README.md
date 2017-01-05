@@ -3,7 +3,8 @@
 ##PART 1
 
 1. Print 'clicked on logo' to the console when the user clicks on the logo in the navbar.
-2. Use JavaScript to show/reveal/toggle the div with class 'mission-content' when the user
+2. The div with class 'mission-content' is hidden with CSS. Use JavaScript to
+   show/reveal/toggle the div with class 'mission-content' when the user
    clicks on the anchor that says 'Our Mission'. Make sure you prevent the default
    anchor behavior, which moves the page to the href attribute's value.
 3. Repeat step 2, but for the div with class 'services-content' and the
