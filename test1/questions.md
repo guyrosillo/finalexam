@@ -16,6 +16,9 @@ If you forget the property name, ask Google
 
 WHEN DONE:
 make sure you are in the web1010-test-1 folder in a console/terminal then type:
+
 git add -A
+
 git commit -m "completed the test"
+
 git push
