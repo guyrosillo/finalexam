@@ -7,7 +7,7 @@ header {
     width: 100%;
 }
 
-#logo {
+.logo {
     font-size: 1.5rem;
     margin: 0;
     display: inline-block;
@@ -16,7 +16,7 @@ header {
     text-shadow: 1px 1px 1px #FFF;
 }
 
-#menu-button {
+.menu-button {
     position: absolute;
     right: 0;
     margin: 10px;
@@ -37,21 +37,17 @@ nav {
     opacity: 0;
 }
 
-nav ul {
+.menu-items {
     list-style-type: none;
     padding: 0;
     margin: 0;
-}
-
-nav li {
-    display: block;
     text-align: center;
 }
 
-nav li a {
+.menu-item {
     text-decoration: none;
     width: 100%;
-    display: inline-block;
+    display: block;
     padding: 8px;
     border-top: 1px solid #bbb;
     border-bottom: 1px solid #bbb;
@@ -67,14 +63,14 @@ section {
     padding: 10px;
 }
 
-#above-the-fold {
+.above-the-fold {
     background-image: url("../img/background.jpg");
     background-size: cover;
     background-position: center;
     padding-top: 100px;
 }
 
-#gallery {
+.gallery {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -82,20 +78,23 @@ section {
     justify-content: center;
 }
 
-#gallery figure {
+figure {
     margin: 20px;
 }
 
-#gallery img {
+figure img {
     width: 100%;
     max-width: 240px;
 }
 
-form input {
+.form-input {
     display: block;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
 }
 
-form input[type="radio"] {
+input[type="radio"] {
     display: inline-block;
 }
 
@@ -104,7 +103,7 @@ footer {
 }
 
 @media all and (min-width: 1024px) {
-    #above-the-fold {
+    .above-the-fold {
         text-align: center;
     }
 

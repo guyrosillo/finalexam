@@ -4,29 +4,29 @@
 Create a new file in the css directory called "custom.css". Then complete the following
 CSS exercises by using the custom.css file. Don't forget to link custom.css into index.html!
 
-1. Make the logo have red font color
+1. Make the .logo have red font color
 
-2. Change the anchor elements inside the nav list items to have a font color of blue
+2. Change the anchor elements inside the nav to have a font color of blue
 
-3. Change the nav list items to have a visited font color of green
+3. Change the anchor elements inside the nav to have a visited font color of green
 
-4. Inside the #above-the-fold section, change the font color of each card's paragraph to white
+4. Inside the .above-the-fold section, change the font color of each card's paragraph to white
 
-5. Inside the #above-the-fold section, change the background color of each card's
+5. Inside the .above-the-fold section, change the background color of each card's
 button to a light green color, and change the button's font color to white
 
 6. Give a value of 30px to the margin-left property of the first letter of every paragraph in each article
 
-7. Give the #blog section a background color of #666 and a font color of #cff
+7. Give the .blog section a background color of #666 and a font color of #cff
 
-8. In the #gallery section, give every figure a box shadow that only appears when
-you hover over them
+8. In the .gallery section, give every figure a box shadow that only appears when
+you hover over one of them
 
-9. In the #gallery section, give every figcaption 8px of padding on all sides
+9. In the .gallery section, give every figcaption 8px of padding on all sides
 
-10. Change the image of the first figure to a picture of your favorite food
+10. Change the image of only the first figure to a picture of your favorite food
 
-11. Center the h3 inside of every article
+11. Center the text in  every .article-title
 
 12. Set 40px of margin-top to every article
 
