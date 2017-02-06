@@ -46,7 +46,6 @@ nav {
 
 .menu-item {
     text-decoration: none;
-    width: 100%;
     display: block;
     padding: 8px;
     border-top: 1px solid #bbb;
@@ -88,10 +87,8 @@ figure img {
 }
 
 .form-input {
-    display: block;
-    padding: 5px;
-    margin: 10px;
     border-radius: 5px;
+    display: inline-block;
 }
 
 input[type="radio"] {
