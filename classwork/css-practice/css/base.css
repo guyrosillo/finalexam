@@ -97,6 +97,11 @@ input[type="radio"] {
 
 footer {
     text-align: center;
+    padding: 15px;
+}
+
+address p {
+    margin: 0;
 }
 
 @media all and (min-width: 1024px) {
