@@ -46,7 +46,7 @@ a separate line instead of being next to each other
 17. Give the footer a dark gray background color using rgb, and change the font
 color to a light orange using a hexadecimal value (the one with a hash #)
 
-18. Change the border color of each form input and textarea to green, but only
+18. Change the border-width of each form input and textarea to 4px, but only
 when a user clicks on or tabs to that input (the :focus pseudo class)
 
 19. Before every section h2, put the 'greater than' character (>). Use the :before pseudo class
