@@ -2,12 +2,13 @@
 
 1. Change the font color of the title (h1 element) to any color
 
-2. Change the background color of the "colleges" unordered list element
+2. Change the background color of the "colleges" list to #c83;
 
 3. Remove the bullets from the "topics" list items (but not the "colleges" list items).
 If you forget the property name, ask Google
 
 4. Set the max-width to 300px for all images, but only the ones inside of a figure element
+The size of the code image should not change.
 
 5. Change the display property for each figure so that they are all on the same line
 
