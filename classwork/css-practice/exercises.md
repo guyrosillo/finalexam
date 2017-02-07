@@ -6,9 +6,9 @@ CSS exercises by using the custom.css file. Don't forget to link custom.css into
 
 1. Make the logo have red font color
 
-2. Change the anchor elements inside the nav to have a font color of blue
+2. Change the anchor elements inside the nav to have a font color of green
 
-3. Change the anchor elements inside the nav to have a visited font color of green
+3. Change the anchor elements inside the nav to have a visited font color of #444
 
 4. Inside the above-the-fold section, change the font color of each card's paragraph to white
 
