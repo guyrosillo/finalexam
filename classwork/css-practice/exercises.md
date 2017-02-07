@@ -26,7 +26,8 @@ you hover over one of them
 
 10. Change the image of only the first figure to a picture of your favorite food
 
-11. Set 40px of margin-top to every article and give every article a max width of 800px
+11. Set 40px of margin-top to every article and give every article a max width of 800px.
+Then set a margin-left to auto and the margin-right to auto;
 
 12. Center the text in every article-title using text-align, and center every
 article using margin
