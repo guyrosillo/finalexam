@@ -6,26 +6,3 @@
 // In the console, declare a variable called numPassengers and set its
 // value to 0. Then, increment the variable by 3, using the += operator.
 // Then log numPassengers to the console.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer example:
-var numPassengers = 0
-numPassengers += 3;
-numPassengers
-
-// Output:
-3

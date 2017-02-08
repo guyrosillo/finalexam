@@ -5,25 +5,3 @@
 // Then log countMessage to the console.
 //
 //    Attention: There are now 3 passengers on the train!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer:
-var countMessage = "Attention: there are now " + numPassengers + " passengers on the train!"
-countMessage
-
-// Output:
-"Attention: there are now 3 passengers on the train!"

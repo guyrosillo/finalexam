@@ -5,23 +5,3 @@
 // quotation marks:
 //      Quoth the raven:
 //             "Nevermore!"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer example:
-"Quoth the raven:\n\t\t\"Nevermore!\""
-
-// Output:
-Quoth the raven:
-       "Nevermore!"

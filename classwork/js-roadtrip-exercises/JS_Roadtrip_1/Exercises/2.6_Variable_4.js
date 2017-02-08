@@ -2,25 +2,3 @@
 
 // In the console, now declare a variable called lastName
 // and store your last name inside it. Then log lastName to the console.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer example:
-var lastName = "Astley"
-lastName
-
-// Output:
-"Astley"

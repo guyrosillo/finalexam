@@ -9,24 +9,3 @@
 "two"
 3
 7
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer example:
-"eight" +" "+ 5 +" "+ "six" +" "+ "two" +" "+ 3 +" "+ 7
-
-// Output:
-"eight 5 six two 3 7"

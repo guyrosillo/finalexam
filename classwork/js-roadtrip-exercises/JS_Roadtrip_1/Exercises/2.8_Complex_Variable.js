@@ -8,23 +8,3 @@
 //
 // Hint: use bracket notation on the string with something like this:
 // "example string"[index].
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer example:
-var index14 = "What can we do? Keep going!"[14]
-index14
-
-// Output:
-?

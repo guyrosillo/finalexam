@@ -2,24 +2,3 @@
 
 // In the console, declare a variable twenty20 and assign
 // to it 3 + 10 + 7. Then log twenty20 to the console.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer:
-var twenty20 = 3 + 10 + 7
-twenty20
-
-// Output:
-20

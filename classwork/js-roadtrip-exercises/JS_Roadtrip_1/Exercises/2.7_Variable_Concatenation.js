@@ -4,23 +4,3 @@
 // make a variable called fullName that unites your first and last names
 // into one String. Make sure there is a space between them. Then log fullName
 // to the console.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer example:
-var fullName = firstName + lastName
-fullName
-
-// Output:
-"RickAstley"
