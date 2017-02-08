@@ -14,6 +14,9 @@ The size of the code image should not change.
 
 6. Set the margin on all four sides of every figure element to 20px;
 
+7. Add a 5th figure element (with an img and figcaption inside) inside the
+div with the figure elements. Then set the img src to be a picture of a squid
+
 
 WHEN DONE:
 make sure you are in the web1010-test-1 folder in a console/terminal then type:
