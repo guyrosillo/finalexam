@@ -24,34 +24,3 @@
 
 var userAge = prompt("What's your age, user?");
 var ageIsCorrect = false;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer example:
-var userAge = prompt("What's your age, user?");
-var ageIsCorrect = false;
-
-while(ageIsCorrect === false) {
-	ageIsCorrect = confirm("You entered " + userAge + ". Is this correct?");
-
-  if(ageIsCorrect) {
-  	alert("Great! Your age is logged as " + userAge + ".");
-  } else {
-  	userAge = prompt("What's your age, user?");
-  }
-}

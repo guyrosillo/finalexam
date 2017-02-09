@@ -6,25 +6,3 @@
 //
 // Note: use the specific array function that takes a piece of data off the
 // back of an array
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer example:
-var bool = values.pop();
-bool
-
-// Output:
-true

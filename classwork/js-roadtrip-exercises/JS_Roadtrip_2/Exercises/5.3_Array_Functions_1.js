@@ -5,26 +5,3 @@
 // the console to confirm your number was added.
 
 var list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer example:
-list.push(10);
-list
-
-// Output:
-[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]

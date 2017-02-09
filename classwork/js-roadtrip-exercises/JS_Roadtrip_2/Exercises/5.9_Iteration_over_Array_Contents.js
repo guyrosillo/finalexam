@@ -14,38 +14,3 @@
 //
 // Then test out your function in the console, passing in an array of strings
 // for the argument.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer example:
-function numStrings(list) {
-  var count = 0;
-
-  for(var i = 0, x = list.length; i < x; i++) {
-    if(typeof list[i] === "string") {
-    	count++;
-    }
-  }
-
-  return count;
-}
-
-numStrings(["FVI", "school", "is", "cool"]);
-
-// Output:
-4

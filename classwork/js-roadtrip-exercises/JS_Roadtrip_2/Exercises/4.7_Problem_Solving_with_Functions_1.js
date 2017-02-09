@@ -13,23 +13,3 @@
 // be responsible for on that day. The output should match the following format:
 //
 //      "Each Oceanologist should load <number> grams of feed today."
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer exmaple:
-function feedPerOceanologist(numGoldfish, numOceanologists) {
-	alert("Each Oceanologist should load " + numGoldfish * 2 / numOceanologists + " grams of feed today.");
-}

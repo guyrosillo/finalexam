@@ -31,33 +31,3 @@
 //
 // Note: You do not need to call the function. Build the function declaration
 // without invoking it.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer example:
-function changePowerTotal(totalPower, ID, status, powerProduced) {
-  if(status == "on") {
-  	totalPower += powerProduced;
-    alert("Generator #" + ID + " is now on, adding " + powerProduced + " MW, for a total of " + totalPower + " MW!");
-  } else {
-  	totalPower -= powerProduced;
-    alert("Generator #" + ID + " is now off, removing " + powerProduced + " MW, for a total of " + totalPower + " MW!");
-  }
-
-  return totalPower;
-}
-
-// Output:

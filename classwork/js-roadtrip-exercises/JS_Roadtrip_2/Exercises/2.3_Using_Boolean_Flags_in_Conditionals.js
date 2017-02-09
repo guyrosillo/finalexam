@@ -18,28 +18,3 @@
 // Use the code below in your solution.
 
 var parkIsOpen = true;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer example:
-var parkIsOpen = true;
-
-if(parkIsOpen === true) {
-	console.log("Welcome to the Flappy National Park! Try to enjoy your stay.");
-} else {
-	console.log("Sorry, Flappy needs some maintenance work. We're closed!");
-}
-
-// Output:
-Welcome to the Flappy National Park! Try to enjoy your stay.

@@ -8,24 +8,3 @@
 var movie1 = [16, "Candles"];
 var movie2 = [3, "Men", "and", "a", "Baby"];
 var eightiesMovies = [movie1, movie2];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer example:
-alert(eightiesMovies[0][0] + " " + eightiesMovies[0][1]);
-
-// Output in the alert box:
-16 Candles

@@ -8,24 +8,3 @@
 //
 // When the correct dialog box pops up, enter your age to complete the
 // challenge. Then log userAge in the console.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer:
-var userAge = prompt("What's your age, user?");
-userAge

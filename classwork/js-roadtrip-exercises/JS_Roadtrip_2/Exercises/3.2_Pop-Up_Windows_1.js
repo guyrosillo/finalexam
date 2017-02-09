@@ -12,26 +12,3 @@ if (parkIsOpen) {
 } else {
   console.log("Sorry, the Flappy are particularly bad today. We're closed!");
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer:
-var parkIsOpen = false;
-
-if (parkIsOpen) {
-  alert("Welcome to the Flappy National Park! Try to enjoy your stay.");
-} else {
-  alert("Sorry, the Flappy are particularly bad today. We're closed!");
-}

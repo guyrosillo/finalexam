@@ -6,25 +6,3 @@
 // confirm that the numbers are in order.
 
 var list = [1, 2, 3, 7, 5, 6, 7, 8, 9];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer example:
-list[3] = 4;
-list
-
-// Output
-[1, 2, 3, 4, 5, 6, 7, 8, 9]

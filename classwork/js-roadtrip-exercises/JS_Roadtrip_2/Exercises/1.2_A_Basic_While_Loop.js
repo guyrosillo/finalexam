@@ -5,35 +5,3 @@
 // variable to get the wheels turning. Use the code below in your solution.
 
 var num = 10;
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer example:
-var num = 10;
-
-while(num >= 1) {
-  console.log(num);
-  num--;
-}
-
-// Output:
-10
-9
-8
-7
-6
-5
-4
-3
-2
-1

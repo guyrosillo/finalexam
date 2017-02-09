@@ -10,25 +10,3 @@ function mystery(x, y) {
   var c = a + b;
   return c;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer example:
-function mystery(x, y) {
-  return (4 * x * y) + (3 * y + 5);
-}
-
-mystery(2, 6);
-
-// Output:
-71

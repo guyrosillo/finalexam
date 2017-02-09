@@ -15,38 +15,3 @@ while (num > 0) {
 
   num--;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer example:
-var num = 10;
-
-while (num > 0) {
-
-  if(num % 2 === 0) {
-  	console.log(num);
-  }
-
-  num--;
-}
-
-// Output:
-10
-8
-6
-4
-2

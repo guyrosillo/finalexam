@@ -7,26 +7,3 @@
 //    - a Boolean
 //
 // Then log values to the console.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer example:
-var values = ["FVI", 1010, true];
-values
-
-// Output:
-["FVI", 1010, true]

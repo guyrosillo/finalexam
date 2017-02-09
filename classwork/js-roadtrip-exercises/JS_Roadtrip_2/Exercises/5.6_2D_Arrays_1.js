@@ -8,25 +8,3 @@
 var movie1 = [16, "Candles"];
 var movie2 = [3, "Men", "and", "a", "Baby"];
 var eightiesMovies = [movie1, movie2];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer example:
-var infant = eightiesMovies[1][4];
-infant
-
-// Output:
-"Baby"
