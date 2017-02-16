@@ -86,7 +86,7 @@ button {
 	padding: 10px;
 	width: 305px;
 	position: relative;
-		
+
 	display:none;
 }
 #colorSelect:after {
@@ -110,7 +110,7 @@ button {
 	border-radius: 3px;
 	box-shadow: none;
 	float: left;
-	border: none;
+	border: 1px solid #ccc;
 	margin: 10px 20px 20px 10px;
 
 }
@@ -137,4 +137,13 @@ button {
 	margin: 10px -10px -7px;
 	padding: 5px 10px;
 	width: 325px;
+}
+.thickness-container {
+	text-align: center;
+	padding: 15px;
+}
+.thickness-container label {
+	display: block;
+	margin-bottom: 10px;
+	color: #fff;
 }

@@ -1,76 +1,67 @@
-var color = $(".selected").css("background-color");
-var $canvas = $("canvas");
-var context = $canvas[0].getContext("2d");
-var lastEvent;
-var mouseDown = false;
+var context = document.querySelector('canvas').getContext('2d');
+var selectedColor = $('.selected').css('background-color');
 
-//When clicking on the color picking list items
+function chooseColor(event) {
+    //Remove white ring from other colors
+    $(event.target).siblings().removeClass('selected');
+    //Make selected color have the white ring
+    $(event.target).addClass('selected');
+    //Set selected color to current color
+    selectedColor = $(event.target).css('background-color');
+}
 
-$(".controls").on("click", "li", function() {
-    $(this).siblings().removeClass("selected");
-    $(this).addClass("selected");
+//When clicking on a color
+$('.controls li').click(chooseColor);
 
-    color = $(this).css("background-color");
-    console.log(color);
-});
-
-
-
-
-//When "new color" is pressed
-$("#revealColorSelect").click(function() {
-    changeColor();
-    //hide or unhide the color select div
-    $("#colorSelect").toggle();
+//When "New Color" button is pressed
+$('#revealColorSelect').click(function() {
+    //hide/unhide the color select div
+    $('#colorSelect').toggle();
 });
 
 function changeColor() {
-    var r = $("#red").val();
-    var g = $("#green").val();
-    var b = $("#blue").val();
-
-    $("#newColor").css("background-color", "rgb(" + r + ", " + g + ", " + b + ")");
+    var color = 'rgb(' + $('#red').val() + ', ' + $('#green').val() + ', ' + $('#blue').val() + ')';
+    $('#newColor').css('background-color', color);
 }
 
 //When color sliders changes
-$("input[type=range]").change(changeColor);
-
-//OR when the previous event fires
-//update the new color span
-
-//When add color is pressed
-$("#addNewColor").on("click", function() {
-  //append the new color to the controls ul
-    var $newColor = $("<li></li>");
-    $newColor.css("background-color", $("#newColor").css("background-color"));
-
-    //select the new color
-    $(".controls ul").append($newColor);
-    $newColor.click();
+$('input').on('input', function() {
+    //update the new color box
+    changeColor();
 });
 
-
+//When "Add Color" button is pressed
+$('#addNewColor').click(function() {
+    var newColor = $('<li></li>').css('background-color', $('#newColor').css('background-color'));
+    //append the new color to the controls ul
+    $('.controls ul').append(newColor);
+    // set click listener for the new color
+    newColor.click(chooseColor);
+});
 
 //on mouse events on the canvas
-$canvas.mousedown(function(event) {
+  //draw lines
+var lastMouseEvent;
+var isMouseDown = false;
 
-  lastEvent = event;
-  mouseDown = true;
-
-}).mousemove(function(event) {
-
-  if(mouseDown === true) {
-    context.beginPath();
-    context.moveTo(lastEvent.offsetX, lastEvent.offsetY);
-    context.lineTo(event.offsetX, event.offsetY);
-    context.strokeStyle = color;
-    context.stroke();
-    lastEvent = event;
-  }
-
-}).mouseup(function() {
-  mouseDown = false;
-}).mouseleave(function() {
-  $canvas.mouseup();
+$('canvas').mousedown(function(event) {
+    lastMouseEvent = event;
+    isMouseDown = true;
 });
-//draw lines
+
+$('canvas').mousemove(function(currentMouseEvent) {
+    if(isMouseDown === true) {
+        context.beginPath();
+        context.moveTo(lastMouseEvent.offsetX, lastMouseEvent.offsetY);
+        context.lineTo(currentMouseEvent.offsetX, currentMouseEvent.offsetY);
+        context.strokeStyle = selectedColor;
+        context.lineWidth = $('#thickness').val();
+        context.stroke();
+        console.log(lastMouseEvent.offsetX, currentMouseEvent.offsetX);
+        lastMouseEvent = currentMouseEvent;
+    }
+});
+
+$('canvas').mouseup(function() {
+    isMouseDown = false;
+});
