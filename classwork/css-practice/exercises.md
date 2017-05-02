@@ -1,6 +1,6 @@
-##CSS Selectors Practice
+## CSS Selectors Practice
 
-###Instructions:
+### Instructions:
 Create a new file in the css directory called "custom.css". Then complete the following
 CSS exercises by using the custom.css file. Don't forget to link custom.css into index.html!
 
