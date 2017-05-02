@@ -1,10 +1,10 @@
 # WEB1010
 
-#Homework
+### Homework
 1. Do the first 40% of the codecademy javascript track. Video explanations are available on the youtube channel named [thecodingteacher](https://www.youtube.com/playlist?list=PLkOcUOQbE6gaJpEanJNBQaATre7Ea3shN).
 2. Extra Credit: Complete the exercises from http://fvi-grad.com. Make sure you create one GitHub repo for all the exercises, with one folder per exercise.
 
-#Summary
+### Summary
 
 * Day 1: First, get students setup with all their accounts, such as portal.office.com and canvas.instructure.com. Then, our goals are to get students familiar with the request-response model, the most common html elements and attributes, and the conceptual basis of the relationship between html, css, js. Use this [Powerpoint Presentation](https://docs.google.com/presentation/d/10vDVvKG7lW_quJ2O5c1nmHttuXlDnOIjeES1xMiaxTI/edit#slide=id.g35f391192_00) while you demonstrate how to use the browser's developer tools and walk students through creating their own html page from scratch. On this day, students also install git and get the crash course of the main commands needed to work on their own.
 
