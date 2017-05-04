@@ -4,11 +4,10 @@
 
 2. Change the background color of the "colleges" list to #c83;
 
-3. Remove the bullets from the "topics" list items (but not the "colleges" list items).
-If you forget the property name, ask Google
+3. Remove the bullets from the "topics" list items (but not the "colleges" list items)
 
 4. Set the max-width to 300px for all images, but only the ones inside of a figure element
-The size of the code image should not change.
+The size of the 'code' image should not change.
 
 5. Change the display property for each figure so that they are all on the same line
 
@@ -25,4 +24,6 @@ git add -A
 
 git commit -m "completed the test"
 
-git push
+git push origin master
+
+Then, submit the "Test 1" assignment on canvas.instructure.com
