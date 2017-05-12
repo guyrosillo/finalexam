@@ -6,41 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Weather App</title>
-    <link href="https://fonts.googleapis.com/css?family=Lalezar|Roboto" rel="stylesheet">
-    <link href="style/weather-icons.css" rel="stylesheet">
-    <link rel="stylesheet" href="style/main.css" media="screen" title="no title">
+    <link rel="stylesheet" href="./style/main.css">
 </head>
 
 <body>
 
-    <div class="main-container">
+    <h2 class="city"></h2>
+    <input type="text" class="zip" value="33166" autofocus>
+    <br>
+    <h3>Weather</h3>
+    <p class="weather"></p>
+    <img src="" alt="" class="icon">
+    <h3>Temperature</h3>
+    <span class="temp"></span>
+    <span>&deg;</span><span class="temp-unit">C</span>
+    <br>
+    <br>
+    <h3>Humidity</h3>
+    <span class="humidity"></span><span>%</span>
 
-
-        <div class="location">
-            <p id="city"></p><p id="country"></p>
-            <br>
-            <label for="chooseZip">Zip:&nbsp;</label>
-            <input id="chooseZip" type="text" name="chooseZip" autofocus>
-        </div>
-
-        <div class="data">
-            <p>Temp</p>
-            <span id="temp"></span> <span id="temp-change">&deg;F</span>
-            <p>Weather</p>
-            <span id="weather"></span>
-            <img src="" />
-            <p>Humidity</p>
-            <span id="humidity"></span>
-            <p>Sunrise</p>
-            <span id="sunrise"></span>
-            <p>Sunset</p>
-            <span id="sunset"></span>
-        </div>
-
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

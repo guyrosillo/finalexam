@@ -1,116 +1,73 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block; }
+* {
+    box-sizing: border-box;
+    position: relative;
+}
 
 body {
-  line-height: 1; }
-
-ol, ul {
-  list-style: none; }
-
-blockquote, q {
-  quotes: none; }
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none; }
-
-/* remember to define visible focus styles!
-:focus {
-	outline: ?????;
-} */
-/* remember to highlight inserts somehow! */
-ins {
-  text-decoration: none; }
-
-del {
-  text-decoration: line-through; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-body,
-html {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  background-color: #033549; }
-
-.main-container {
-  margin: 40px auto;
-  height: 100%;
-  min-width: 300px;
-  color: white;
-  font-family: "Roboto";
-  text-align: center;
-  display: none; }
-
-.location {
-  margin: auto; }
-  .location #city,
-  .location #country {
-    font-size: 2.5rem;
-    font-family: "Lalezar";
-    display: inline-block; }
-  .location input,
-  .location label {
-    font-size: 1rem;
-    margin: 10px 0 0 0; }
-  .location input {
-    width: 4rem;
-    color: #fff;
+    margin: 0;
+    padding: 10px;
     text-align: center;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)),
+        url('../img/waterfall.gif');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    color: #fff;
+    min-height: 100vh;
+}
+
+h2, h3, p, span {
+    text-shadow: 0 0 3px #000, 0 0 5px #000, 0 0 10px #000;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+p, span {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.zip {
     border: none;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
-    background-color: transparent; }
-    .location input:focus {
-      background-color: #2d4c61;
-      box-shadow: 0 -1px 3px 1px #2d4c61;
-      border-top-left-radius: 3px;
-      border-top-right-radius: 3px;
-      outline: none; }
+    padding: 5px 8px;
+    background-color: rgba(0, 0, 0, .6);
+    color: #fff;
+    width: 100px;
+    text-align: center;
+    border-radius: 3px;
+}
 
-.data {
-  margin: 50px auto 0; }
-  .data p {
-    font-size: 1rem;
-    color: gray;
-    margin: 30px 0 10px 0; }
-  .data span {
-    font-size: 1.6rem;
-    color: white;
-    margin: 10px 0 0; }
-  .data #temp-change {
-    color: #4cf;
-    cursor: pointer; }
-    .data #temp-change:hover {
-      color: #4ef; }
-  .data img {
-    margin: 10px auto;
-    width: 60px;
-    display: block; }
+.zip::placeholder {
+    color: #888;
+}
 
-/*# sourceMappingURL=main.css.map */
+.icon {
+    width: 100px;
+    animation-name: icon;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes icon {
+    0% {
+        transform: scale(.9) rotate(-3deg);
+    }
+    100% {
+        transform: scale(1.05) rotate(10deg);
+    }
+}
+
+.temp-unit {
+    cursor: pointer;
+    color: #5bf;
+    font-weight: bold;
+}
+
+.temp-unit:active {
+    color: orange;
+}
