@@ -1,6 +1,7 @@
 const API_KEY = '033e634bbf41bdc9a0735d00d62399ee'
 const api_root_url = 'http://api.openweathermap.org/data/2.5/weather?zip='
 
+const body = document.querySelector('body')
 const city = document.querySelector('.city')
 const zip = document.querySelector('.zip')
 const weather = document.querySelector('.weather')
@@ -22,12 +23,30 @@ function FtoC(Fahrenheit) {
 }
 
 const groups = {
-    'Thunderstorm': 'img/thunderstorm.png',
-    'Drizzle': 'img/rain.png',
-    'Rain': 'img/rain.png',
-    'Snow': 'img/snow.png',
-    'Clear': 'img/sun.png',
-    'Clouds': 'img/cloudy.png'
+    'Thunderstorm': {
+        icon: 'img/thunderstorm.png',
+        bg: 'url(img/thunderstorm-bg.jpg)'
+    },
+    'Drizzle': {
+        icon: 'img/rain.png',
+        bg: 'url(img/rain-bg.jpg)'
+    },
+    'Rain': {
+        icon: 'img/rain.png',
+        bg: 'url(img/rain-bg.jpg)'
+    },
+    'Snow': {
+        icon: 'img/snow.png',
+        bg: 'url(img/snow-bg.jpg)'
+    },
+    'Clear': {
+        icon: 'img/sun.png',
+        bg: 'url(img/sun-bg.jpg)'
+    },
+    'Clouds': {
+        icon: 'img/cloudy.png',
+        bg: 'url(img/cloudy-bg.jpg)'
+    }
 }
 
 function getWeather(zipCode) {
@@ -40,7 +59,8 @@ function getWeather(zipCode) {
             temp.textContent = KtoF(response.main.temp)
             tempUnit.textContent = 'F'
             humidity.textContent = response.main.humidity
-            icon.setAttribute('src', groups[ response.weather[0].main ])
+            icon.setAttribute('src', groups[ response.weather[0].main ].icon)
+            body.style.backgroundImage = groups[ response.weather[0].main ].bg
             zip.select()
         }
     })
