@@ -1,6 +1,10 @@
-#WEB1010 Final Exam
+# WEB1010 Final Exam
 
-##PART 1
+Consider the page at http://swolebrain.com/clients-samples/world-intl-security/
+
+Start a new github repository and download the whole site onto it.
+
+## PART 1
 
 1. Print 'clicked on logo' to the console when the user clicks on the logo in the navbar.
 2. The div with class 'mission-content' is hidden with CSS. Use JavaScript to
@@ -20,5 +24,5 @@
    successfully sends. If the form fails to send, change the form button's contents
    to 'Error sending message'.
 
-##PART 2
+## PART 2
 Complete all the exercises in the js-exercises directory.
