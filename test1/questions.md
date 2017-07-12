@@ -18,13 +18,7 @@ div with the figure elements. Then set the img src to be a picture of a squid. A
 
 
 WHEN DONE:
-make sure you are in the web1010-test-1 folder in a console/terminal then type:
-
-git add -A
-
-git commit -m "completed the test"
-
-git push origin master
+Create a repo on GitHub called "web1010-test-1" and push your web1010-test-1 directory to this repo.
 
 Then, submit the "Test 1" assignment on canvas.instructure.com
 
