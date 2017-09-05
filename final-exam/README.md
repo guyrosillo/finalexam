@@ -18,7 +18,7 @@ Start a new github repository and download the whole site onto it.
     1. type should be "text"; name should be "name"
     2. type should be "email"; name should be "email"
     3. type should be "tel"; name should "phone"
-5. Using jQuery's ajax method, post the form data to fvi-grad.com:4004/fakeform. Make
+5. Using jQuery's ajax method, post the form data to http://fvi-grad.com:4004/fakeform. Make
    sure you prevent the form's default behavior of reloading the page.
 6. Change the form button's content (its word) to 'Message Sent!' after the form
    successfully sends. If the form fails to send, change the form button's contents
