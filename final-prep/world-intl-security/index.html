@@ -99,12 +99,25 @@
                     </div>
                   </div>
                 </div>
+                <form action="" class="aForm">
+                    <label for="">Message</label>
+                    <br>
+                    <input type="text">
+                    <br>
+                    <input type="submit">
+                </form>
             </div>
         </div>
         
         <script>
             
             $('.button-collapse').sideNav();
+
+            const form = document.querySelector('.aForm');
+
+            form.addEventListener('submit', function(e) {
+                e.preventDefault()
+            })
         </script>
     </body>
 </html>
