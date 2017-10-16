@@ -1,1 +1,28 @@
+/* Q1 */
+h1
+{
+color: teal;
+}
+
+.colleges
+{
+    background-color: #c83;
+}
+
+.topics li
+{
+list-style-type: none;
+}
+
+figure
+{
+    margin: 20px 20px 20px 20px;
+    display: inline-block;
+}
+
+figure img
+{
+    max-width: 300px;
+
+}
 
