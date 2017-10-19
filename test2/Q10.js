@@ -6,3 +6,8 @@
 //
 // You must replace the numbers in the string above with variables. The number
 // 36 must be calculated using math and two variables.
+
+var trainCapacity = 40;
+var numPassengers = 4;
+
+console.log(numPassengers + " passengers present with " + (trainCapacity - numPassengers) + " seats remaining." );

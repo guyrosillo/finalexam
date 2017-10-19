@@ -7,9 +7,6 @@
 // Copy the variables below and use them to build a while loop that prints
 // a message for one year’s worth of time.
 
-var numGoldfish = 4;
-var monthNumber = 1;
-var monthsToPrint = 12;
 
 // Here’s what the first two lines of output should look like:
 //
@@ -17,3 +14,14 @@ var monthsToPrint = 12;
 //    There will be 64 goldfish after 2 month(s)!
 //
 // Note: you must the the above 3 variables in your solution.
+
+var numGoldfish = 4;
+var monthNumber = 1;
+var monthsToPrint = 12;
+
+while(monthsToPrint >=1){
+    console.log("There will be " + (numGoldfish*4) + " goldfish after " + monthNumber + "  month(s)!");
+    monthsToPrint --;
+    monthNumber ++;
+    numGoldfish *= 4;
+}

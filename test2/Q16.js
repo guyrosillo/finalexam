@@ -5,3 +5,11 @@
 //
 // Inside the if code block, log to the console "The condition is true".
 // Inside the else code block, log to the console "The condition is false."
+
+var condition = 3 > 4;
+if(condition == true){
+    console.log("The condition is true.");
+}
+else {
+    console.log("The condition is false.");
+}

@@ -7,3 +7,8 @@
 //
 // IMPORTANT: you must replace <length of string> with the length of longString
 // using the .length property
+
+var longString = "This is a crappy string";
+var total = longString.length;
+
+console.log("The length of longString is: " + total);

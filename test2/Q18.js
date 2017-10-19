@@ -6,3 +6,12 @@
 // Then first console log should print the number 8.
 // Then first console log should print the number 13.
 // Then first console log should print the number -3.
+
+
+function sum(a, b){
+    return a + b;
+};
+
+console.log(sum(4, 4));
+console.log(sum(9, 4));
+console.log(sum(9, -12));

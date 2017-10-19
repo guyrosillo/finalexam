@@ -8,3 +8,18 @@
 // The first console log should print 5.
 // The second console log should print "equal".
 // The third console log should print -3.
+function maxOf2(a, b){
+    if(a > b){
+        console.log(a);
+    }
+    else if(b > a){
+        console.log(b);
+    }
+    else{
+        console.log("equal");
+    }
+}
+
+maxOf2(5,2);
+maxOf2(5,5);
+maxOf2(-3, -7);

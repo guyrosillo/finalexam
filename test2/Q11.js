@@ -3,3 +3,8 @@
 // age plus 5 years. You must use the age variable in this calculation.
 //
 // Then log ageIn5Years to the console.
+
+var age = 31;
+ageIn5years = age + 5;
+
+console.log(ageIn5years);
