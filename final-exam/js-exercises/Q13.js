@@ -28,4 +28,9 @@ var money = 1000;
 var interest = 0.05;
 var years = 30;
 
+
 // Answer:
+for(i = 1; i <= 30; i++){
+    console.log("At the end of year " + i + " you have $" +(((money * interest) * i) + money) + ".");
+}
+i++;

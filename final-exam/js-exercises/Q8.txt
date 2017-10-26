@@ -8,3 +8,4 @@ var z = 4;
 x = x * z;
 
 Answer:
+240

@@ -14,7 +14,7 @@ var carAge = 10;
 var mileage = 150000;
 var brand = "Kia";
 
-if (  ){
+if (carAge > 10 && mileage > 150000 && brand == "Kia"){
   console.log("You should buy a new car");
 } else {
   console.log("Hold off a bit, be frugal.");

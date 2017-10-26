@@ -10,3 +10,4 @@ c. "11", string
 d. 11, number
 
 Answer:
+c

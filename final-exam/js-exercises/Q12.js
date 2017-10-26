@@ -6,3 +6,4 @@ var greeting = "Hi!";
 var name = "Slim Shady";
 
 // Answer:
+console.log(`${greeting} My name is ${name}.`);

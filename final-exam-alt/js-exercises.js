@@ -1,39 +1,38 @@
 //Question 1.1
 //Find the error in the following for loop:
 
-for (var i = 0; i < '5'; i++;) {
- console.log('i')
+for (var i = 0; i < '5'; i++) {
+ console.log('i');
 }
 
 //Question 1.2
 //Find the error in the following conditional:
- if false{
-   consola.log("hello")
+ if (false){
+   console.log("hello");
  }else{
-   console.log("hasta luego")
+   console.log("hasta luego");
  }
 
 //Question 1.3
 //Find the error in the following code:
 var x = 15;
 if (x > 10){
-   console.log(x is greater than ten);
+   console.log(x + " is greater than ten." );
 }
 
 //Question 1.4
 //Find the error in the following code:
 var y = 27;
-if y === 27
+if (y === 27)
   console.log(27);
 
 //Question 2.1
 //What will the console output when the following is entered.
  '1'+1
 
-//a. 2
-//b. "2"
-//c. "11"
-//d. 11
+
+//c. "11" <-----
+
 
 //Question 2.2
 //Find the errors in the following
@@ -48,6 +47,7 @@ var a = "thug life"
 var b = 5;
 var c = 10;
 var x = b*c + a;
+// 50thuglife
 
 //Question 2.4
 //What is the value of x?
@@ -56,7 +56,7 @@ var y = 6;
 x = x*y;
 var z = 4;
 x = x*z;
-
+240
 
 //Question 3.1
 //Write a sentence that uses the following variables
@@ -64,11 +64,14 @@ var firstName = "John"
 var lastName = "Martinez"
 var city = "Miami"
 
+console.log(`${firstName} ${lastName} was born in ${city}.`)
+
 
 //Question 3.2
 //Write a sentence that uses the following variables
 totalPower = 32
 generator = 1
+console.log(`Generator no. ${generator}'s capable of running '${totalPower} watts.`)
 
 
 //Question 3.3
@@ -77,13 +80,14 @@ generator = 1
 var str1 = "que bola acere";
 var str2 = "sup dawg";
 var str3 = str1+"is similar to"+str2+" in spanish.";
+que bola acereis similar tosup daw in spanish.
 
 
 //Question 3.4
 //Use console.log to output the statement: "Hi! My name is Slim Shady." using the following two variables:
 var greeting = "Hi!";
 var name = "Slim Shady";
-
+console.log(greeting + " my name is " + name);
 
 //Question 4
 /*
@@ -106,6 +110,10 @@ var money = 1000;
 var interest = 0.05;
 var years = 30;
 
+for(i = 1; i <= 30; i++){
+  console.log("At the end of year " + i + " you have $" +(((money * interest) * i) + money) + ".");
+}
+i++;
 
 
 // Question 5.1
@@ -125,6 +133,11 @@ else{
   console.log("Hold off a bit, be frugal.");
 }
 
+if (carAge > 10 && mileage > 150000 && brand == "Kia"){
+  console.log("You should buy a new car");
+} else {
+  console.log("Hold off a bit, be frugal.");
+}
 
 //Question 5.2
 /*
@@ -151,18 +164,20 @@ for (; ; ) {
 // Extra Credit
 // Este dia las picsinas numero 2 y 10 no trabajan,
 // Repeat the same problem but assume pools 2 and 10 aren't operational.
+
 var totalPools = 12
 var currentPool = 1
 var smallVolume = 1000
 var largeVolume = 3000
 var totalVolume = 0
-for ( ;   ;  ) {
-
-
-
-
-
+for (currentPool = 1; currentPool <= 12; currentPool ++) {
+    if(currentPool <=7)
+    totalVolume = (1000 * currentPool);
+    else{
+    totalVolume = (3000 * currentPool);    
+    }
 }
+console.log(totalVolume);
 
 
 

@@ -5,3 +5,4 @@ var lastName = "Martinez"
 var city = "Miami"
 
 // Answer:
+console.log(`${firstName} ${lastName} was born in ${city}.`);

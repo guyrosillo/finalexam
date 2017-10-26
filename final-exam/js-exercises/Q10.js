@@ -4,3 +4,5 @@ totalPower = 32
 generator = 1
 
 // Answer:
+
+console.log(`Generator no. ${generator}'s total power is ${totalPower} watts.`);

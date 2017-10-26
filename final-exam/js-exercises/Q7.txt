@@ -12,3 +12,4 @@ c: "thug life510"
 d: "thug life50"
 
 Answer:
+b
